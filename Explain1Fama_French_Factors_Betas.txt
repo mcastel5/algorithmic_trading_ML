@@ -1,0 +1,27 @@
+Fama French Factors
+- factors that explain eturns on assets
+
+1. Market Risk (MKT): market portfolio - risk-free rate
+    a. captures overall market risk
+    b. stocks tend to move with the market
+    c. accounts for common movement of all stocks
+2. Size (SMB): return difference between small cap and large cap stocks
+    a. Smaller companies often have higher returns than larger companies
+    b. Factor captures size effect on stock returns
+3. Value (HML): return difference between high-book-to-market ratio stocks and low... stocks
+    a. value stocks tend to outperform growths stocks over long term
+    b. captures value premium in stock returns
+4. Operating Profitability: return difference between firms with robust and weak profitability
+    a. companies with higher profitability tend to deliver higher returns
+    b. captures profitability premium
+5. Investment: return difference between firms with conservative and aggressive investment strategies
+    a. firms with conservative investment policies tend to have higher returns
+    b. captures investment premium
+These are factors to understand, not numbers
+
+Rolling factor betas:
+- Beta: a measure of an asset's sensitivity to a particular risk factor
+- Rolling beta: betas calculated over rolling window to observe change over time
+
+Linear Regression: used to estimate relationship between asset's returns and Fama French Factors
+

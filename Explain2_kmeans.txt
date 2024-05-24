@@ -1,0 +1,16 @@
+K-Means Clustering
+- Def: unsupervised learning algorithm used to partition a dataset into K distinc subgroups based on feature similarity
+- Purpose: group similar assets together to identify patters or segments within the dataset
+
+Centroids
+- Def: a central point in each cluster. K-means minimizes the distance between each point and its Centroids
+- k-means++: a meathod for initializing centroids before running the K-means algorithm. This increases the chances of finding a proper clustering solution
+- Predefined centroids: centroids can otherwise be set manually based on prior knowledge or research
+
+Process description
+1. Initialization of first K centroids (can be random, predetermined etc)
+2. Assignment of each data point to its closest centroid
+3. Centroids redefined as mean of all datapoints assigned to their each cluster
+4. Iteration: assignment and update steps repeat until convergence, where centroids no longer change significantly between iterations
+
+The more accurate the initial centroid prediction, the faster convergence is reached
